@@ -19,7 +19,6 @@ All the random words are been stored in the database.py file along with their hi
 
 ###Key Entities in Code
 ```
-+-- mgnerga
-|  venv
++-- Hangman
 |  +--database.py
 |  +--main.py

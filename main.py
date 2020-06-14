@@ -5,7 +5,9 @@ from database import dictionary as dict
 lists = list(dict.items())
 option = random.choice(lists)
 word = list(option[0])
+print(word, option, lists)
 word2 = list(OrderedDict.fromkeys(word))
+print(word2)
 glist = []
 chances = 12
 while(len(glist) != len(word2) and chances > 0) :
